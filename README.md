@@ -58,7 +58,7 @@ The data2gRaph project is a web-based data visualization tool that can also be u
 ../data2gRaph/Packages_to_be_installed.R
 ```
 
-## Operating step
+## Run step
 
 
 Run the file named app.R.
