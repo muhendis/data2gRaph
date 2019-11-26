@@ -2,9 +2,9 @@ library(shiny)
 
 library(shinydashboard)
 
-library(DT)#table
+library(DT)
 
-require(shinycssloaders)# table
+require(shinycssloaders)
 
 library(corrplot)
 
@@ -14,19 +14,19 @@ library(ggplot2)
 
 library(ggthemes) 
 
-library(reshape2) # ::melt
+library(reshape2) 
 
-library(viridis)#color,https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html
+library(viridis)
 
-library(ggfortify)#k-meansplot and pcaplot, https://cran.r-project.org/web/packages/ggfortify/vignettes/plot_pca.html
+library(ggfortify)
 
-library(ggpubr) #mixplot
+library(ggpubr)
 
-library("ggExtra")#mixplot
+library("ggExtra")
 
-library(ComplexHeatmap)#source("http://bioconductor.org/biocLite.R") #biocLite("ComplexHeatmap")
+library(ComplexHeatmap)
 
-library("hexbin")# install.packages("hexbin") #mixplot
+library("hexbin")
 
 
 ui <- dashboardPage(
@@ -175,10 +175,3 @@ server <- function(input, output) {
 
 ################## Running  ###########
 shinyApp(ui, server)
-#install.packages("BiocManager")
-
-#BiocManager::install("ComplexHeatmap")
-###packages
-#install.packages(c("corrplot", "DT", "ggExtra", "ggfortify", "ggplot2", "ggpubr", "ggthemes", "hexbin", "RColorBrewer", "reshape2", "shiny", "shinycssloaders", "shinydashboard", "viridis"))
-#if(!require(devtools)) install.packages("devtools")
-#devtools::install_github("kassambara/ggpubr")
