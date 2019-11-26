@@ -49,7 +49,7 @@ The data2gRaph project is a web-based data visualization tool that can also be u
 
 
 ## Installation steps
-1. Download this pogram where you want to run it, [click to download] (https://github.com/muhendis/data2gRaph/archive/master.zip)
+1. Download this pogram where you want to run it, [click to download](https://github.com/muhendis/data2gRaph/archive/master.zip)
 
 
 2. Run the file named Packages_to_be_installed.R once for the required packages.
