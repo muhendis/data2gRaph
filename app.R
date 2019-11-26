@@ -48,7 +48,7 @@ ui <- dashboardPage(
       
       menuItem("Statistical Plots",tabName = "statPlots", icon = icon("dashboard"),startExpanded = FALSE,
                
-               menuSubItem("Measures of Central Tendency", tabName = "CentralTendencyTab"),#http://boot.rdata.work/contrib/radar-example/
+               menuSubItem("Measures of Central Tendency", tabName = "CentralTendencyTab"),
                
                menuSubItem("Measures of Dispersion", tabName = "DispersionTab"),
                
@@ -56,8 +56,7 @@ ui <- dashboardPage(
                
                menuSubItem("Correlation Analyses", tabName = "CorTab")
                
-               #https://cyfar.org/types-statistical-tests
-               #http://www.p005.net/istatistik-test-secimi-nasil-yapilir
+               
                
                
       ),
