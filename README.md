@@ -10,6 +10,8 @@ The data2gRaph project is a web-based data visualization tool that can also be u
     > The second section visualizes using machine learning information.
 
     > The third section visualizes create a mix plot using different plots.
+    
+#### [click to screenshots](https://github.com/muhendis/data2gRaph/tree/master/Example%20graph)
 
 ## Content of the the application
 
