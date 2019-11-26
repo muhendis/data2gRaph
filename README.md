@@ -11,20 +11,62 @@ The data2gRaph project is a web-based data visualization tool that can also be u
 
     > The third section visualizes create a mix plot using different plots.
 
-#### Content of the the application
+## Content of the the application
+
+##### About
+      
+##### Input Data
+      
+##### Statistical Plots
+               
+           Measures of Central Tendency
+               
+           Measures of Dispersion
+               
+           Covariance Matrix
+               
+           Correlation Analyses
+
+##### Unsupervised ML Plots
+               
+            Principal Component Analysis 
+               
+            K-means Clustering
+               
+            Hierarchical Clustering
+               
+               
+    
+##### Mix Plots
+               
+            Scatter+Rug+Hist
+               
+            Density+Densigram 
+               
+            Hexagonal+Boxplot
+               
+            Complex Heatmap
 
 
-### Installation steps
+## Installation steps
+1. Download this pogram where you want to run it, [click to download] (https://github.com/muhendis/data2gRaph/archive/master.zip)
+
+
+2. Run the file named Packages_to_be_installed.R once for the required packages.
+
+```
+../data2gRaph/Packages_to_be_installed.R
 ```
 
-https://github.com/muhendis/data2gRaph/blob/master/Packages_to_be_installed.R
+## Operating step
+
+
+Run the file named app.R.
+```
+../data2gRaph/app.R
 ```
 
-### Operating step
-
-
-
-#### Information about R, OS and attached or installed packages.
+## Information about R, OS and attached or installed packages
 
 
 ```{R}
@@ -63,7 +105,7 @@ loaded via a namespace (and not attached):
 ```
 
 
-### Several screenshots of the application
+## Several screenshots of the application
 
 <p align="center">
 <img  width="1900" height="500" src="https://github.com/muhendis/data2gRaph/blob/master/Example%20graph/about.png"> 
