@@ -50,23 +50,15 @@ The data2gRaph project is a web-based data visualization tool that can also be u
             Complex Heatmap
 
 
-## Installation steps
-1. Download this pogram where you want to run it, [click to download](https://github.com/muhendis/data2gRaph/archive/master.zip)
+## Installation and Run steps
 
+```{R}
+library(shiny)
 
-2. Run the file named Packages_to_be_installed.R once for the required packages.
-
+runGitHub('data2gRaph','muhendis')
 ```
-../data2gRaph/Packages_to_be_installed.R
-```
+##### 
 
-## Run step
-
-
-Run the file named app.R.
-```
-../data2gRaph/app.R
-```
 
 ## Information about R, OS and attached or installed packages
 
