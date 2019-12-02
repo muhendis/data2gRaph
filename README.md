@@ -60,7 +60,7 @@ The data2gRaph project is a web-based data visualization tool that can also be u
 
 ```	
 
-## Run step	
+## Running step	
 
 
 Run the file named app.R.
